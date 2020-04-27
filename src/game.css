@@ -1,0 +1,25 @@
+.alive {
+    animation-name: cellAnimation;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+
+@keyframes cellAnimation {
+    0% {
+        transform: scale(0.3);
+        background-color: darkturquoise;
+    }
+    50% {
+        transform: scale(1.2);
+        background-color: darkturquoise;
+    }
+    100% {
+        transform: scale(1);
+        background-color: darkturquoise;
+    }
+}
